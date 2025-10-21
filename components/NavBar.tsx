@@ -25,7 +25,7 @@ const NavBar = async() => {
         <>
         <div className="my-5 px-5">
             <div className="bg-gray-100 hover:bg-gray-200 cursor-pointer px-5 py-3 rounded-sm flex items-center gap-3 font-semibold">
-                <img src="http://localhost:3000/google.jpg" alt="google" width={20}/>
+                <img src="https://nextjs-sanityio-project-with-google.vercel.app/google.jpg" alt="google" width={20}/>
                 <SignIn />
             </div>
 
