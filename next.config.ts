@@ -14,10 +14,6 @@ const nextConfig: NextConfig = {
     ppr: "incremental",
     //after: true,
   },
-  devIndicators: {
-    buildActivity: true,
-    buildActivityPosition: "bottom-right",
-  },
   eslint: {
     ignoreDuringBuilds: true,
   },
