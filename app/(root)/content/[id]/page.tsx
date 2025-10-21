@@ -26,19 +26,19 @@ const page = async({params}: { params: Promise<{ id: string }> }) => {
     
   return (
     <div className='w-[350px] sm:w-[750px] xl:w-[1120px] mx-auto my-5 px-5'>
-        <h2 className='text-xl sm:text-3xl pb-5 font-semibold text-blue-primary'>{content?.title}</h2>
+        <h2 className='text-xl sm:text-3xl pb-1 font-semibold text-blue-primary'>{content?.title}</h2>
 
-        <div className='my-5 flex items-center gap-7'>
+        <div className='my-3 flex items-center gap-7'>
             <div className='flex gap-2 items-center'>
-                <img className='rounded-full' src={content?.publisher?.image} alt={content?.publisher?.username}  width={45}/>
+                <img className='rounded-full' src={content?.publisher?.image} alt={content?.publisher?.username}  width={25}/>
 
                 <div>
                     <h5 className='text-sm font-extrabold text-stone-700'>{content?.publisher?.username}</h5>
                     <span className='text-xs text-stone-500 underline'>{content?.publisher?.email}</span>
                 </div>
             </div>
-            <div className='flex items-center gap-2'>
-                <Calendar className='text-stone-600'/> 
+            <div className='flex items-start sm:items-center gap-2 text-xs'>
+                <Calendar className='text-stone-600 w-[12px]'/> 
                 <h5 className='text-stone-700 '>{formatDate(content?._createdAt)}</h5> 
             </div>
         </div>
