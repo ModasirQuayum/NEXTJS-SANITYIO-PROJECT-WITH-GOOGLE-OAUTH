@@ -19,7 +19,7 @@ const NavBar = async() => {
                     <span className='text-stone-500 font-bold'>{session?.user?.name}</span>
                 </div>
                 <div className='flex items-center'>
-                    <Link className='text-stone-700 hover:text-stone-600' href="/content/create">Create</Link>
+                    <Link className='text-stone-700 hover:text-stone-600 px-2' href="/content/create">Create</Link>
                     <SignOut />
                 </div>
             </div>
