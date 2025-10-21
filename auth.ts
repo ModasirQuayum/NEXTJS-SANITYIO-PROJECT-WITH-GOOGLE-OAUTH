@@ -18,11 +18,11 @@ export const { handlers,signIn,signOut, auth } = NextAuth({
     secret: process.env.AUTH_SECRET,
     callbacks: {
     async signIn({account,
-      profile:{sub,email_verified},
+      profile,
       user:{name,email,image} 
     }) {
-      if (account.provider === "google" && email_verified) {
-        const google_id = sub
+      if (account?.provider === "google" && profile?.email_verified) {
+        const google_id = profile?.sub
         const existingUser = await client.withConfig({useCdn: false}).fetch(PUBLISHER_BY_GOOGLE_ID_QUERY,{id:google_id})
 
         if(!existingUser){
