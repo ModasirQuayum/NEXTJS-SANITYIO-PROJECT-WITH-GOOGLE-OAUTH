@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Next.js Blog with Sanity CMS, Google OAuth & Comments
 
-## Getting Started
+A modern Next.js 15 blog platform powered by Sanity.io, featuring:
 
-First, run the development server:
+🔐 Google OAuth authentication
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+💬 Comment system with live updates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚡ Partial Prerendering (PPR) for hybrid static + dynamic rendering
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔴 Sanity Live for real-time content previews
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧠 Fully typed using TypeScript
 
-## Learn More
+### 🚀 Features
+  Next.js 15 App Router with modern patterns (app/ directory)
+  
+  Sanity.io CMS for flexible content management
+  
+  NextAuth.js with Google OAuth 2.0 for user login
+  
+  Comment system connected to Sanity dataset
+  
+  Sanity Live & PPR for real-time editing and dynamic pages
+  
+  Server Actions for form submissions
+  
+  SEO-ready metadata using Next.js Metadata API
+  
+  Responsive UI built with Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🧩 Tech Stack
+  Framework	Next.js 15
+  
+  CMS	Sanity.io
+  
+  Auth	NextAuth.js with Google Provider
+  
+  Database	Sanity Dataset
+  
+  Styling	Tailwind CSS
+  
+  Language	TypeScript
+  
+  Deployment	Vercel
+  
+  Realtime Updates	Sanity Live API
+  
+  Rendering	Partial Prerendering (PPR)
